@@ -1,0 +1,20 @@
+[project]
+name = "aiotailwind"
+version = "0.1.0"
+authors = [
+  { name="Paul Nicholls" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Home Automation",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Homepage = "https://github.com/pauln/aiotailwind"
+Issues = "https://github.com/pauln/aiotailwind/issues"
