@@ -132,7 +132,7 @@ class TailwindController:
         """Return a list of door enitities."""
         if self.product != "iQ3":
             return []
-        return [Door(key, door_data, self.auth) for (key, door_data) in self.raw_data["data"].items()][:self.num_doors-1]
+        return [Door(key, door_data, self.auth) for (key, door_data) in self.raw_data["data"].items()][:self.num_doors]
 
     @property
     def light(self) -> Light:
