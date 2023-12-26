@@ -7,7 +7,7 @@ from aiotailwind import Auth, TailwindController, TailwindError
 async def main():
     async with aiohttp.ClientSession() as session:
         # Set your Tailwind device's IP address and local control key below:
-        auth = Auth(session, "http://192.168.0.123", "your_local_control_key")
+        auth = Auth(session, "192.168.0.123", "your_local_control_key")
         controller = TailwindController({}, auth)
 
         try:
